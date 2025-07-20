@@ -781,6 +781,11 @@ function library:Introduction()
     xsx.Size = UDim2.new(0, 80, 0, 21)
     xsx.Font = Enum.Font.Code
     xsx.Text = "powered by CatilusPremium"
+    local image = Instance.new("ImageLabel")
+    image.Image = "rbxassetid://94054637957521"
+    image.Size = UDim2.new(0, 100, 0, 100) -- Change size as needed
+    image.Position = UDim2.new(0, 0, 0, 20) -- Change position as needed
+    image.Parent = xsx.Parent -- Or your loading screen frame
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
     xsx.TextSize = 10.000
     xsx.TextTransparency = 1
